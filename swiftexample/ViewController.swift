@@ -13,7 +13,7 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate{
 
     var images : NSMutableArray = NSMutableArray()
     var gameScene = GameScene()
-    @IBOutlet weak var carousel: iCarousel!
+    @IBOutlet weak var carousel: CarouselSubclass!
 
     deinit{
         NSNotificationCenter.defaultCenter().removeObserver(self)

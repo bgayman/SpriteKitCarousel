@@ -13,6 +13,7 @@
 		138BCA701989946E0009467C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138BCA6E1989946E0009467C /* Main.storyboard */; };
 		138BCA721989946E0009467C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138BCA711989946E0009467C /* Images.xcassets */; };
 		CD312F301D0C30D000CF7202 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD312F2F1D0C30D000CF7202 /* GameScene.swift */; };
+		CD312F3A1D0CD1E800CF7202 /* CarouselSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD312F391D0CD1E800CF7202 /* CarouselSubclass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		138BCA711989946E0009467C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13F10FEC198997560066DA2E /* SwiftExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		CD312F2F1D0C30D000CF7202 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = swiftexample/GameScene.swift; sourceTree = SOURCE_ROOT; };
+		CD312F391D0CD1E800CF7202 /* CarouselSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarouselSubclass.swift; path = swiftexample/CarouselSubclass.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				138BCA6A1989946E0009467C /* AppDelegate.swift */,
 				138BCA6C1989946E0009467C /* ViewController.swift */,
 				CD312F2F1D0C30D000CF7202 /* GameScene.swift */,
+				CD312F391D0CD1E800CF7202 /* CarouselSubclass.swift */,
 				138BCA6E1989946E0009467C /* Main.storyboard */,
 				138BCA711989946E0009467C /* Images.xcassets */,
 				138BCA681989946E0009467C /* Supporting Files */,
@@ -165,6 +168,7 @@
 				138BCA6D1989946E0009467C /* ViewController.swift in Sources */,
 				CD312F301D0C30D000CF7202 /* GameScene.swift in Sources */,
 				138BCA6B1989946E0009467C /* AppDelegate.swift in Sources */,
+				CD312F3A1D0CD1E800CF7202 /* CarouselSubclass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
